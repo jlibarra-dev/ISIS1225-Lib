@@ -5,7 +5,7 @@ Created on Fri Dec 18 11:52:36 2020
 @author: juanl
 """
 
-libreriasParaActualizar = ['ISIS1225-SampleTree', 'ISIS1225-SampleGraph', "Reto4-202020-Template"]
+libreriasParaActualizar = ['ISIS1225-SampleTree', 'ISIS1225-SampleGraph']#, "Reto4-202020-Template"]
 nombreRepositorio = "jlibarra-dev"
 with open('.git/hooks/pre-push', 'w') as writer:
     # Further file processing goes here
